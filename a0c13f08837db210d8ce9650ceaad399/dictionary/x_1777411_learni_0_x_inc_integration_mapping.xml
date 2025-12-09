@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c5a4405c83fdb210d8ce9650ceaad380" label="x_inc_integration_mapping" max_length="40" name="x_1777411_learni_0_x_inc_integration_mapping" type="collection">
+        <element label="Assignment_group" max_length="40" name="assignment_group" type="string"/>
+        <element label="Assigned_to" max_length="40" name="assigned_to" type="string"/>
+        <element display="true" label="status" max_length="40" name="status" type="string"/>
+        <element label="INC_number" max_length="40" name="inc_number" type="string"/>
+        <element label="Short_description" max_length="40" name="short_description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Worknotes" max_length="40" name="worknotes" type="string"/>
+        <element label="Caller" max_length="40" name="caller" type="string"/>
+    </element>
+</database>
